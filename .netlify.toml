@@ -1,0 +1,3 @@
+[build]
+  command = "go install github.com/pressly/goose/cmd/goose@latest && make build"
+  publish = "app"
