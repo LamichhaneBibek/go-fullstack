@@ -14,6 +14,7 @@ build:
 	go install github.com/pressly/goose/cmd/goose@latest
 	make migrateup
 	go build -o app cmd/web/main.go
+	./app
 
 
 PHONY: create_migrate migrateup migratedown run
